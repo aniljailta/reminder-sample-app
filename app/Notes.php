@@ -13,8 +13,8 @@ class Notes extends Model
     public $timestamps = true;
 
     protected $casts = [
-        'title'             => 'string',
-        'description'       => 'text',
-        'status'            => 'string'
+        'title'       => 'string',
+        'description' => 'string',
+        'status'      => 'string',
     ];
 }

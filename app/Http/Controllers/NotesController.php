@@ -7,7 +7,7 @@ use App\Notes;
 
 class NotesController extends Controller
 {
-    protected $_resouce_path;
+    protected $_resource_path;
     
     public function __construct()
     {
